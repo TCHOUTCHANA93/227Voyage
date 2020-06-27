@@ -1,0 +1,344 @@
+<html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+       <script src="https://kit.fontawesome.com/b593391d68.js" 
+        crossorigin="anonymous"></script>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <style>
+        .section-search input {
+          padding:5px;
+          font-size: 18px;
+          width: 90%;
+          border:#FFFFFF 1px solid;
+        
+        }
+        .follow{
+          padding: 5px;
+        }
+        .fab{
+          padding: 4px;
+        }
+        .a{
+          font-size: 10px;
+        }
+        .b{
+          font-size: 14px;
+        }
+      </style>
+    </head>
+
+    <body id="home" class="scollspy">
+      <div class="navbar-fixed teal lighten-2">
+        <nav class="nav-wrapper teal lighten-2">
+          <div class="container">
+            <a href="#" class="brand-logo ">227 Voyages</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#">Home</a></li>
+              <li><a href="#search">Search</a></li>
+              <li><a href="#popular">Popular Places</a></li>
+              <li><a href="#Gallery">Gallery</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      
+      <ul id="mobile-links" class="sidenav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#popular">Popular Places</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    
+      <!--slider-->
+      <section class="slider">
+        <ul class="slides">
+          <li>
+            <img src="palm.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>Take your dream Vaccation </h3>
+              <h5 class="light grey-text text-lighten-3  hide-on-small-only">Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Consequuntur mollitia ea cum? Sunt, optio animi commodi minima possimus pl</h5>
+                <a class="waves-effect waves-light btn">LEARN MORE</a>
+            </div>
+          </li>
+          <li>
+            <img src="matin.jpg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3>We Work With All Budget   </h3>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet
+                  Pariatur aspernatur quaerat qui eaque laborum.</h5>
+                  <a class="waves-effect waves-light btn">LEARN MORE</a>
+            </div>
+          </li>
+          <li>
+            <img src="vaccs.jpeg"> <!-- random image -->
+            <div class="caption right-align">
+              <h3>Group & Individual Getaways </h3>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only ">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Tenetur eos animi eius pariatur cum nam veniam nisi at adipisci praesentium.</h5>
+                 <a class="waves-effect waves-light btn">LEARN MORE</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- search-->
+     <section id="search" class="section section-search teal white-text center scrollspy">
+       <div class="container">
+         <div class="row">
+           <div class="col s12">
+             <h3>Search Destionations</h3>
+             <div class="input-field">
+               <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Niamey,Maradi,Tahoua,zinder....">
+             </div>
+           </div>
+         </div>
+       </div>
+      </section> 
+      <!--card-->
+      <div class=" row grey lighten-4">
+        <div class="container">
+          <p></p>
+          <div class="col s12 m4">
+            <div class="card-panel  center-align">
+              <i class="fas fa-2x fa-map-marker-alt center-text teal-text"></i>
+              <h5>Pick Where</h5>
+              <span class="">I am a very simple card. I am good at containing in frameworks.
+              </span>
+            </div>
+          </div>
+          <div class="col s12 m4">
+              <div class="card-panel center-align">
+                <i class="fas fa-2x fa-store-alt teal-text"></i>
+                <h5>Travel Shop</h5>
+                <span class="">I am a very simple card. I am good at containing in frameworks.
+                </span>
+              </div>
+            </div>
+            <div class="col s12 m4 ">
+                <div class="card-panel  center-align">
+                  <i class="large material-icons teal-text" style="font-size: 32px;" >airplanemode_active</i>
+                  <h5>Fly Cheap</h5>
+                  <span class="">I am a very simple card. I am good at containing in frameworks.
+                  </span>
+                </div>
+              </div>  
+        </div>
+    </div>
+      <!--card-->
+      <div class="row" id="popular">
+        <div class="container">
+          <div class="center-align">
+            <h5><span class="teal-text">Popular</span> Places</h5>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="palm.jpg" height="160px">
+                <span class="card-title">Pillule Niamey</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits </p>
+              </div>
+          </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="matin.jpg" height="160px">
+                <span class="card-title">Reserve Kouray</span>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 ">
+              <div class="card">
+                <div class="card-image">
+                  <img src="vaccs.jpeg" height="160px">
+                  <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits </p>
+                </div>
+              </div> 
+          </div>
+        </div>
+      </div>
+      <!--follow-->
+      <div class="row teal white-text follow">
+        <p></p>
+        <div class="container center-align">
+          <h5>Follow 227 Voyages</h5>
+          <p class="a">Follow us on social media for spcial offers</p>
+          <p><i class="fab fa-2x fa-facebook-square"> <span> 
+               </span> </i>  <i class="fab fa-2x fa-twitter">  </i> 
+               <span>    </span> <i class="fab fa-2x fa-linkedin">  </i>
+                <span>     </span><i class="fab fa-2x fa-google-plus"></i> 
+                <span>    </span> <i class="fab fa-2x fa-pinterest">  </i></p>
+        </div>
+      </div>
+
+<!--gallery-->
+<div class="row" id="Gallery">
+  <div class="container">
+    <div class="center-align">
+      <h5><span class="teal-text">Photo</span> Gallery</h5>
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="matin.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="matin.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="matin.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="matin.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="palm.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="palm.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="palm.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="palm.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="vaccs.jpeg" alt="" class="materialboxed responsive-img">
+        </div> 
+        <div class="col s12 m3">
+          <img src="vaccs.jpeg" alt="" class="materialboxed responsive-img">
+        </div> 
+        <div class="col s12 m3">
+          <img src="vaccs.jpeg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="vaccs.jpeg" alt="" class="materialboxed responsive-img">
+        </div>
+      </div> 
+      </div>
+    
+    </div>
+  </div>
+</div>       
+     
+<!---->
+      <div class="row" id="Contact">
+        <div class="container">
+          <div class="col s12 m6">
+            <div class="card ">
+              <div class="card-content center-align teal white-text">
+                <i class="fas fa-2x fa-envelope"></i>
+                <h5>Contact Us For Booking</h5>
+                <p class="a">I am a very simple card. I am good at containing small bits of information.
+                I am convenient because</p>
+              </div>
+              <div class="card-action">
+                <h6>Location</h6>
+              </div>
+              <div class="card-action">
+                <p class="a">227 vogages Agency</p>
+              </div>
+              <div class="card-action">
+               <p class="a">555 Bauch rd Suite 33</p>
+              </div>
+              <div class="card-action">
+               <p class="a">Niamey, NE 447055</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 grey lighten-4">
+            <h5>Please fil out form</h5>
+            <br>
+            <div class="row">
+              <div class="input-field ">
+                <input placeholder="Name" id="first_name" type="text" class="validate">
+                <label for="first_name">Name</label>
+              </div>
+              <br>
+              <div class="input-field ">
+                <input id="last_name" placeholder="Email" type="text" class="validate">
+                <label for="last_name">Email</label>
+              </div>
+              <div class="input-field col s12">
+                <input id="last_name" placeholder="Phone" type="text" class="validate">
+                <label for="last_name">Phone</label>
+              </div>
+              <br>
+              <div class="input-field col s12">
+                <input id="last_name" placeholder="Message" type="text" class="validate">
+                <label for="last_name">Message</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <!--footer-->
+      <div class="row teal white-text follow a">
+        <div class="container center-align">
+          <br>
+          <p class="b"> 
+            227 Voyages © 2020
+          </p>
+          <br>
+        </div>
+      </div>
+      
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+      crossorigin="anonymous">
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+        //sidenav
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+       });
+      </script>
+      <script>
+        //Slider
+        var elems = document.querySelectorAll('.slider');
+        var instances = M.Slider.init(elems, {
+          indicators:false,
+
+        });
+      </script>
+      <script>
+         $(document).ready(function(){
+        $('input.autocomplete').autocomplete({
+        data: {
+        "Niamey": null,
+        "Tahoua": null,
+         "Zinder": null,
+         "Dosso":null
+
+         },
+         });
+         });
+      </script>
+    </body>
+    </html>
